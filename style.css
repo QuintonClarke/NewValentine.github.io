@@ -59,3 +59,15 @@ body {
         transform: scale(1);
     }
 }
+
+/* Media queries for smaller screens */
+@media only screen and (max-width: 600px) {
+    .title {
+        font-size: 30px; /* Adjust the font size for smaller screens */
+    }
+
+    .heart {
+        width: 100px; /* Adjust the size of the heart for smaller screens */
+        height: 100px;
+    }
+}
